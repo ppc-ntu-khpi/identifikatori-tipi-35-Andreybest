@@ -40,3 +40,9 @@
 <del>22. Перетворити задане число з двійкової системи на [код Грея](https://ru.wikipedia.org/wiki/%D0%97%D0%BB%D0%BE%D0%B5_%D1%87%D0%B8%D1%81%D0%BB%D0%BE) </del>
 <del>23. Розрахувати [число долі](https://sergeiyurev.com/chislo-sudby-v-numerologii/) за заданою датою народження </del> 
 <del>24. Розрахувати поточне (на сьогоднішній день) значення [біоритмів людини](http://uchinfo.com.ua/inform/excel/bioritm.htm) за заданою датою народження </del>
+
+## Інструкція з використання
+1. Розпочати програму на классі TestResult
+2. Ввести текст який потрібно захешувати в MD5
+![Console Log](/img/consoleOutput.png)
+3. Отримати захешований текст
