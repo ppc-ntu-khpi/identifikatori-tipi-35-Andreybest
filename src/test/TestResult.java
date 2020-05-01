@@ -1,12 +1,14 @@
 package test;
 
+import java.util.Scanner;
 import domain.Exercise;
 
 public class TestResult {
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter text to hash: ");
 
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        System.out.println("MD5 Hashed text: " + Exercise.HashToMD5(scanner.nextLine()));
     }
 }
